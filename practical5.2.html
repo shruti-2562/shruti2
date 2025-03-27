@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Internship Application Form</title>
+</head>
+<body>
+
+    <h2>INTERNSHIP APPLICATION FORM</h2>
+
+    <form>
+        <label>Full Name:</label><br>
+        <input type="text" name="name"><br><br>
+
+        <label>Birth Date:</label><br>
+        <input type="date" name="birthdate"><br><br>
+
+        <label>Gender:</label><br>
+        <select name="gender">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select><br><br>
+
+        <label>Age:</label><br>
+        <input type="number" name="age" min="18" max="60"><br><br>
+
+        <label>Address:</label><br>
+        <textarea name="address"></textarea><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <label>Phone:</label><br>
+        <input type="tel" name="phone"><br><br>
+
+        <label>Preferred Department:</label><br>
+        <select name="department">
+            <option>Web Development</option>
+            <option>Data Science</option>
+            <option>Marketing</option>
+        </select><br><br>
+
+        <label>Available Work Hours Per Day:</label><br>
+        <input type="number" name="work_hours" min="1" max="12"><br><br>
+
+        <label>Available Work Days Per Week:</label><br>
+        <input type="number" name="work_days" min="1" max="7"><br><br>
+
+        <label>Resume:</label><br>
+        <input type="file" name="resume"><br><br>
+
+        <label>Cover Letter:</label><br>
+        <textarea name="message"></textarea><br><br>
+
+        <input type="submit" value="Apply">
+    </form>
+
+</body>
+</html>
