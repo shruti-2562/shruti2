@@ -1,0 +1,102 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the form */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+/* Form wrapper style */
+.form-wrapper {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 8px;
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+    font-size: 24px;
+    color: #180404;
+}
+
+/* Style for input fields */
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 40px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.input-group i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);//move me upwards by 50% of my height, along the y-axis
+    font-size: 18px;
+    color: #666;
+}
+
+.input-group  {
+    border-color: #f7f9fc;
+    outline:none;
+}
+
+/* Submit Button */
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #2575fc;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
+
+.submit-btn:hover {
+    background-color: #1d66d0;
+    color:black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTerXSLyIQQLdskn41dy8ysxGgq7DmEXTt9Aw&s'); /* Example image URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+   
+}
+
+
+.form-wrapper {
+    background-color: rgba(242, 241, 247, 0.9);
+    padding: 30px;
+    border-radius: 8px;
+    width: 400px;
+}
